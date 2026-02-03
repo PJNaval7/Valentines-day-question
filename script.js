@@ -11,7 +11,14 @@ function selectOption(option) {
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
-        document.getElementById('no-button').innerText = 'You sure?'; 
+        document.getElementById('no-button').innerText = 'You sure?';
+        // Change text on the "No" button to "Pick Yes pls"
+        // Increase font size of "Yes" button
+        document.getElementById('no-button').innerText = 'Pick Yes pls'; 
+        // Change text on the "No" button to "Will you pls?"
+        document.getElementById('no-button').innerText = 'Will you pls?'; 
+        // Change text on the "No" button to "Just click Yes!!"
+        document.getElementById('no-button').innerText = 'Just click Yes!!'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
@@ -78,3 +85,4 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
