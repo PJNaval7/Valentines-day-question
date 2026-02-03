@@ -37,7 +37,7 @@ function flashRainbowColors(callback) {
         if (callback) {
             callback();
         }
-    }, 2000); // Flash colors for 2 seconds
+    }, 2000); // Flash colors for 15 seconds
 }
 
 // Function to display the cat.gif initially
@@ -78,5 +78,6 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
 
 
